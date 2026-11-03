@@ -7,9 +7,9 @@ from PyQt6 import QtCore, QtWidgets
 import pyqtgraph as pg
 import sounddevice as sd
 
-FFT_SIZE = 2048
-HOP = 512
-HISTORY_SECONDS = 10
+FFT_SIZE = 4096
+HOP = 256
+HISTORY_SECONDS = 30
 DB_MIN, DB_MAX = -100, 0
 
 
